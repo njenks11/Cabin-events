@@ -1,0 +1,152 @@
+{
+ "property": {
+  "name": "The Cabin",
+  "latitude": 44.9022,
+  "longitude": -85.0609,
+  "radiusMiles": 40,
+  "timezone": "America/Detroit"
+ },
+ "generatedAt": "2026-11-14T19:54:34.217Z",
+ "sources": [
+  {
+   "name": "Demo",
+   "status": "11 sample events"
+  }
+ ],
+ "events": [
+  {
+   "id": 1,
+   "title": "Fish Fry & Euchre Night",
+   "start": "2026-11-14T17:00",
+   "allDay": false,
+   "venue": "Mancelona American Legion",
+   "address": "Antrim County, MI",
+   "category": "Food & Drink",
+   "miles": 0.6,
+   "url": "https://example.com/event/1",
+   "source": "Demo"
+  },
+  {
+   "id": 2,
+   "title": "Holiday Craft Show",
+   "start": "2026-11-15T10:00",
+   "allDay": false,
+   "venue": "Mancelona Elementary School",
+   "address": "Antrim County, MI",
+   "category": "Community",
+   "miles": 0.4,
+   "url": "https://example.com/event/2",
+   "pick": true,
+   "description": "Host pick: hand-made gifts from local makers, two minutes from the cabin.",
+   "source": "Owner picks"
+  },
+  {
+   "id": 3,
+   "title": "Live Music: The Cedar Swamp Band",
+   "start": "2026-11-15T19:00",
+   "allDay": false,
+   "venue": "Short's Brewing Company, Bellaire",
+   "address": "Antrim County, MI",
+   "category": "Music",
+   "miles": 11.8,
+   "url": "https://example.com/event/3",
+   "source": "Demo"
+  },
+  {
+   "id": 4,
+   "title": "Snowshoe Nature Walk",
+   "start": "2026-11-16T13:00",
+   "allDay": false,
+   "venue": "Grass River Natural Area",
+   "address": "Antrim County, MI",
+   "category": "Outdoors",
+   "miles": 16.2,
+   "url": "https://example.com/event/4",
+   "source": "Demo"
+  },
+  {
+   "id": 5,
+   "title": "Trivia Night",
+   "start": "2026-11-19T18:30",
+   "allDay": false,
+   "venue": "Short's Pull Barn, Elk Rapids",
+   "address": "Antrim County, MI",
+   "category": "Food & Drink",
+   "miles": 26.4,
+   "url": "https://example.com/event/5",
+   "source": "Demo"
+  },
+  {
+   "id": 6,
+   "title": "Downtown Bellaire Light Parade",
+   "start": "2026-11-21T00:00",
+   "allDay": true,
+   "venue": "Broad St, Bellaire",
+   "address": "Antrim County, MI",
+   "category": "Festivals",
+   "miles": 11.6,
+   "url": "https://example.com/event/6",
+   "source": "Demo"
+  },
+  {
+   "id": 7,
+   "title": "Breakfast with Santa",
+   "start": "2026-11-22T09:00",
+   "allDay": false,
+   "venue": "Mancelona Elementary School",
+   "address": "Antrim County, MI",
+   "category": "Family",
+   "miles": 0.4,
+   "url": "https://example.com/event/7",
+   "source": "Demo"
+  },
+  {
+   "id": 8,
+   "title": "Opening Weekend: Lift-Served Skiing",
+   "start": "2026-11-27T16:00",
+   "allDay": false,
+   "venue": "Schuss Mountain at Shanty Creek",
+   "address": "Antrim County, MI",
+   "category": "Outdoors",
+   "miles": 9.5,
+   "url": "https://example.com/event/8",
+   "source": "Demo"
+  },
+  {
+   "id": 9,
+   "title": "Kids Ski & Ride Day",
+   "start": "2026-11-28T11:00",
+   "allDay": false,
+   "venue": "Boyne Mountain",
+   "address": "Antrim County, MI",
+   "category": "Family",
+   "miles": 21.9,
+   "url": "https://example.com/event/9",
+   "source": "Demo"
+  },
+  {
+   "id": 10,
+   "title": "Winter Concert",
+   "start": "2026-12-05T19:30",
+   "allDay": false,
+   "venue": "Interlochen Center for the Arts",
+   "address": "Antrim County, MI",
+   "category": "Music",
+   "miles": 38.5,
+   "url": "https://example.com/event/10",
+   "source": "Demo"
+  },
+  {
+   "id": 11,
+   "title": "Torchlight Parade & Fireworks",
+   "start": "2026-12-12T20:00",
+   "allDay": false,
+   "venue": "Schuss Mountain at Shanty Creek",
+   "address": "Antrim County, MI",
+   "category": "Festivals",
+   "miles": 9.5,
+   "url": "https://example.com/event/11",
+   "source": "Demo"
+  }
+ ]
+}

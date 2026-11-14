@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Farmers Market",
+    "start": "2026-11-21T08:00",
+    "end": "2026-11-21T12:00",
+    "venue": "Downtown Pavilion",
+    "address": "Main St",
+    "category": "Food & Drink",
+    "url": "",
+    "description": "Owner's pick: grab fresh pastries and local honey every Saturday morning.",
+    "pick": true
+  }
+]

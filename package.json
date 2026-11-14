@@ -1,0 +1,12 @@
+{
+  "name": "cabin-events",
+  "private": true,
+  "type": "module",
+  "description": "Free local events calendar and event-based rate planner for a northern Michigan cabin rental",
+  "scripts": {
+    "fetch": "node scripts/fetch-events.mjs",
+    "demo": "node scripts/make-demo-data.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "preview": "npx --yes serve public"
+  }
+}

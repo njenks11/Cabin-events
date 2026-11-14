@@ -1,0 +1,127 @@
+{
+  "propertyName": "The Cabin",
+  "zip": "49659",
+  "latitude": 44.9022,
+  "longitude": -85.0609,
+  "radiusMiles": 40,
+  "daysAhead": 120,
+  "timezone": "America/Detroit",
+  "maxEvents": 500,
+  "icalFeeds": [
+    {
+      "name": "Shanty Creek Resorts",
+      "url": "https://www.shantycreek.com/events/?ical=1&tribe_display=custom&start_date={start}&end_date={end}"
+    },
+    {
+      "name": "Paddle Antrim",
+      "url": "https://www.paddleantrim.com/events/?ical=1&tribe_display=custom&start_date={start}&end_date={end}",
+      "defaultCategory": "Outdoors"
+    },
+    {
+      "name": "East Jordan Chamber",
+      "url": "https://ejchamber.org/calendar/?ical=1&tribe_display=custom&start_date={start}&end_date={end}"
+    },
+    {
+      "name": "Gaylord Area Tourism",
+      "url": "https://www.gaylordmichigan.net/events/?ical=1&tribe_display=custom&start_date={start}&end_date={end}"
+    }
+  ],
+  "eventPages": [
+    {
+      "name": "Mancelona Chamber",
+      "url": "https://mancelonachamber.org/calendar"
+    },
+    {
+      "name": "Bellaire Chamber",
+      "url": "https://www.bellairechamber.org/events/"
+    },
+    {
+      "name": "Elk Rapids Chamber",
+      "url": "https://www.elkrapidschamber.org/events"
+    },
+    {
+      "name": "Boyne Area Chamber",
+      "url": "https://www.boynechamber.com/events"
+    },
+    {
+      "name": "Petoskey Area",
+      "url": "https://petoskeyarea.com/events/"
+    },
+    {
+      "name": "Traverse City Tourism",
+      "url": "https://www.traversecity.com/events/"
+    },
+    {
+      "name": "Eventbrite: Mancelona area",
+      "url": "https://www.eventbrite.com/d/mi--mancelona/all-events/"
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "baseRate": 250,
+    "minRate": 175,
+    "maxRate": 650,
+    "monthsAhead": 9,
+    "weekendMultiplier": 1.15,
+    "minNights": 2,
+    "impactMultipliers": {
+      "1": 1.1,
+      "2": 1.25,
+      "3": 1.45
+    },
+    "impactMinNights": {
+      "2": 2,
+      "3": 3
+    },
+    "seasons": [
+      {
+        "name": "Holiday ski weeks",
+        "from": "12-20",
+        "to": "01-02",
+        "multiplier": 1.4
+      },
+      {
+        "name": "Ski season",
+        "from": "01-03",
+        "to": "03-15",
+        "multiplier": 1.05
+      },
+      {
+        "name": "Spring mud season",
+        "from": "03-16",
+        "to": "05-14",
+        "multiplier": 0.8
+      },
+      {
+        "name": "Late spring",
+        "from": "05-15",
+        "to": "06-14",
+        "multiplier": 1.0
+      },
+      {
+        "name": "Summer peak",
+        "from": "06-15",
+        "to": "08-25",
+        "multiplier": 1.45
+      },
+      {
+        "name": "Late summer",
+        "from": "08-26",
+        "to": "09-30",
+        "multiplier": 1.15
+      },
+      {
+        "name": "Fall color",
+        "from": "10-01",
+        "to": "10-20",
+        "multiplier": 1.2
+      },
+      {
+        "name": "Late fall",
+        "from": "10-21",
+        "to": "12-19",
+        "multiplier": 0.85
+      }
+    ]
+  }
+}

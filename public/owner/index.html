@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Rate Planner</title>
+<style>
+  :root {
+    --bg: #fafaf9; --card: #fff; --text: #1c1917; --muted: #78716c; --line: #e7e5e4;
+    --low: #dbeafe; --low-t: #1e3a8a; --normal: #fff; --high: #fde68a; --high-t: #78350f;
+    --peak: #fca5a5; --peak-t: #7f1d1d; --accent: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 10px; }
+  .sub { color: var(--muted); margin: 0 0 8px; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
+  button, .btn { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 8px; padding: 7px 12px; cursor: pointer; text-decoration: none; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; font-size: .85rem; color: var(--muted); }
+  .legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; border: 1px solid var(--line); background: var(--sw); }
+  .spikes { display: grid; gap: 8px; }
+  .spike { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; }
+  .spike .name { font-weight: 650; }
+  .spike .when { color: var(--muted); font-size: .88rem; }
+  .spike .rate { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .spike .tip { grid-column: 1 / -1; font-size: .85rem; color: var(--high-t); }
+  .tag { display: inline-block; font-size: .72rem; font-weight: 700; border-radius: 6px; padding: 1px 6px; margin-left: 6px; vertical-align: 1px; }
+  .tag.est { background: #f5f5f4; color: var(--muted); }
+  .tag.feed { background: #ccfbf1; color: #134e4a; }
+  .dots { color: var(--peak-t); letter-spacing: 1px; }
+  .months { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .month { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+  .month h3 { margin: 2px 4px 8px; font-size: 1rem; }
+  .grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+  .dow { font-size: .7rem; color: var(--muted); text-align: center; }
+  .day { border: 1px solid var(--line); border-radius: 6px; min-height: 44px; padding: 3px 4px; font-size: .7rem; background: var(--normal); cursor: pointer; text-align: left; position: relative; }
+  .day b { display: block; font-size: .78rem; font-variant-numeric: tabular-nums; }
+  .day.low { background: var(--low); color: var(--low-t); }
+  .day.high { background: var(--high); color: var(--high-t); }
+  .day.peak { background: var(--peak); color: var(--peak-t); }
+  .day.ev::after { content: ""; position: absolute; top: 4px; right: 4px; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .day[aria-pressed="true"] { outline: 2px solid var(--text); outline-offset: 1px; }
+  .blank { min-height: 44px; }
+  #detail { position: sticky; bottom: 12px; margin-top: 16px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; box-shadow: 0 6px 24px rgba(0,0,0,.08); }
+  #detail:empty { display: none; }
+  #detail ul { margin: 6px 0 0; padding-left: 18px; }
+  .note { font-size: .82rem; color: var(--muted); margin-top: 24px; }
+  @media (max-width: 420px) { .day { min-height: 38px; padding: 2px; font-size: .62rem; } .day b { font-size: .68rem; } }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title">Rate planner</h1>
+  <p class="sub" id="meta">Loading…</p>
+  <div class="toolbar">
+    <button class="primary" id="csv">Download CSV</button>
+    <div class="legend">
+      <span style="--sw:var(--low)">Below base</span>
+      <span style="--sw:var(--normal)">Normal</span>
+      <span style="--sw:var(--high)">High demand</span>
+      <span style="--sw:var(--peak)">Peak</span>
+      <span style="--sw:#444">● event</span>
+    </div>
+  </div>
+
+  <h2>Coming up: demand spikes</h2>
+  <div class="spikes" id="spikes"></div>
+
+  <h2>Suggested nightly rates</h2>
+  <div class="months" id="months"></div>
+  <div id="detail" aria-live="polite"></div>
+
+  <p class="note">
+    Suggested rates come from the base rate, northern Michigan seasons, weekends and local events (settings in <code>config.json</code>,
+    events in <code>major-events.json</code>). "Est." means the organizer hasn't announced dates yet and the date is projected
+    from past years. Add confirmed dates as they're announced. These are suggestions: copy them into Airbnb, VRBO or your booking
+    system and adjust for what you see in your market.
+  </p>
+</main>
+<script>
+(function () {
+  "use strict";
+  var money, data;
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function d(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function nice(s, opts) { return d(s).toLocaleDateString(undefined, opts || { weekday: "short", month: "short", day: "numeric" }); }
+  function range(a, b) { return a === b ? nice(a) : nice(a) + " – " + nice(b); }
+
+  fetch("pricing.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (json) {
+    data = json;
+    money = new Intl.NumberFormat(undefined, { style: "currency", currency: json.currency || "USD", maximumFractionDigits: 0 });
+    document.getElementById("title").textContent = "Rate planner: " + json.property;
+    document.getElementById("meta").textContent = "Base rate " + money.format(json.baseRate) + " · next " + json.nights.length +
+      " nights · updated " + new Date(json.generatedAt).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    renderSpikes(); renderMonths();
+  }).catch(function () { document.getElementById("meta").textContent = "Couldn't load pricing.json yet. Run the daily update first."; });
+
+  function nightsFor(o) {
+    var from = new Date(d(o.start)); from.setDate(from.getDate() - 1);
+    return data.nights.filter(function (n) { var x = d(n.date); return x >= from && n.date <= o.end; });
+  }
+
+  function renderSpikes() {
+    var box = document.getElementById("spikes");
+    var list = data.upcoming.filter(function (o) { return o.impact >= 2 || o.fromFeed; });
+    if (!list.length) { box.appendChild(el("p", "sub", "No major events in the window.")); return; }
+    list.forEach(function (o) {
+      var nights = nightsFor(o);
+      var top = nights.reduce(function (m, n) { return Math.max(m, n.rate); }, 0);
+      var row = el("div", "spike");
+      var left = el("div");
+      var name = el("div", "name", o.name);
+      if (!o.confirmed) name.appendChild(el("span", "tag est", "Est."));
+      if (o.fromFeed) name.appendChild(el("span", "tag feed", "Found in local calendars"));
+      left.appendChild(name);
+      left.appendChild(el("div", "when", range(o.start, o.end) + (o.town ? " · " + o.town : "") + " · " +
+        (o.daysAway <= 0 ? "happening now" : o.daysAway === 1 ? "tomorrow" : o.daysAway + " days away")));
+      var right = el("div", "rate");
+      right.appendChild(el("div", null, top ? "up to " + money.format(top) : ""));
+      right.appendChild(el("div", "dots", "●".repeat(o.impact) + "○".repeat(3 - o.impact)));
+      row.appendChild(left); row.appendChild(right);
+      if (o.daysAway > 45 && o.impact >= 2) row.appendChild(el("div", "tip", "Set these rates now: big weekends book months ahead, and early bookings at the normal rate lock in a discount."));
+      box.appendChild(row);
+    });
+  }
+
+  function renderMonths() {
+    var box = document.getElementById("months");
+    var byMonth = {};
+    data.nights.forEach(function (n) { (byMonth[n.date.slice(0, 7)] = byMonth[n.date.slice(0, 7)] || []).push(n); });
+    var selected = null;
+    Object.keys(byMonth).forEach(function (key) {
+      var nights = byMonth[key];
+      var m = el("section", "month");
+      m.appendChild(el("h3", null, d(key + "-01").toLocaleDateString(undefined, { month: "long", year: "numeric" })));
+      var g = el("div", "grid");
+      ["S", "M", "T", "W", "T", "F", "S"].forEach(function (x) { g.appendChild(el("div", "dow", x)); });
+      for (var i = 0; i < d(nights[0].date).getDay(); i++) g.appendChild(el("div", "blank"));
+      nights.forEach(function (n) {
+        var b = el("button", "day " + n.level + (n.events.length ? " ev" : ""));
+        b.setAttribute("aria-pressed", "false");
+        b.setAttribute("aria-label", nice(n.date, { weekday: "long", month: "long", day: "numeric" }) + ", " + money.format(n.rate));
+        b.appendChild(document.createTextNode(String(+n.date.slice(8))));
+        b.appendChild(el("b", null, "$" + n.rate));
+        b.addEventListener("click", function () {
+          if (selected) selected.setAttribute("aria-pressed", "false");
+          selected = b; b.setAttribute("aria-pressed", "true");
+          showDetail(n);
+        });
+        g.appendChild(b);
+      });
+      m.appendChild(g); box.appendChild(m);
+    });
+  }
+
+  function showDetail(n) {
+    var box = document.getElementById("detail");
+    box.innerHTML = "";
+    box.appendChild(el("strong", null, "Night of " + nice(n.date, { weekday: "long", month: "long", day: "numeric", year: "numeric" }) + ": " + money.format(n.rate)));
+    box.appendChild(el("div", "sub", n.season + (n.weekend ? " · weekend" : "") + " · " + n.minNights + "-night minimum suggested"));
+    if (n.events.length) {
+      var ul = el("ul");
+      n.events.forEach(function (e) {
+        var li = el("li", null, e.name + (e.town ? " (" + e.town + ")" : "") + (e.confirmed ? "" : ": estimated date"));
+        ul.appendChild(li);
+      });
+      box.appendChild(ul);
+    }
+  }
+
+  document.getElementById("csv").addEventListener("click", function () {
+    if (!data) return;
+    var q = function (s) { return '"' + String(s).replace(/"/g, '""') + '"'; };
+    var rows = [["date", "weekday", "suggested_rate", "min_nights", "demand", "season", "events"]];
+    data.nights.forEach(function (n) {
+      rows.push([n.date, nice(n.date, { weekday: "short" }), n.rate, n.minNights, n.level, n.season,
+        n.events.map(function (e) { return e.name + (e.confirmed ? "" : " (est.)"); }).join("; ")]);
+    });
+    var blob = new Blob([rows.map(function (r) { return r.map(q).join(","); }).join("\n")], { type: "text/csv" });
+    var a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "suggested-rates.csv";
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,3673 @@
+{
+ "property": "The Cabin",
+ "generatedAt": "2026-11-14T19:54:13.224Z",
+ "currency": "USD",
+ "baseRate": 250,
+ "nights": [
+  {
+   "date": "2026-11-14",
+   "rate": 365,
+   "minNights": 3,
+   "level": "peak",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 3,
+   "events": [
+    {
+     "name": "Firearm deer opener",
+     "town": "Statewide",
+     "impact": 3,
+     "confirmed": true
+    },
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "rate": 320,
+   "minNights": 3,
+   "level": "peak",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 3,
+   "events": [
+    {
+     "name": "Firearm deer opener",
+     "town": "Statewide",
+     "impact": 3,
+     "confirmed": true
+    },
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "rate": 270,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "rate": 270,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "rate": 275,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    },
+    {
+     "name": "Thanksgiving weekend",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "rate": 275,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    },
+    {
+     "name": "Thanksgiving weekend",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "rate": 320,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    },
+    {
+     "name": "Thanksgiving weekend",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "rate": 320,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    },
+    {
+     "name": "Thanksgiving weekend",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "rate": 235,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Firearm deer season",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-02",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-03",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-04",
+   "rate": 245,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-05",
+   "rate": 245,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-06",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-07",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-08",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-09",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-10",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-11",
+   "rate": 245,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-12",
+   "rate": 245,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-13",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-14",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-15",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-16",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-17",
+   "rate": 215,
+   "minNights": 2,
+   "level": "low",
+   "season": "Late fall",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-18",
+   "rate": 245,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-19",
+   "rate": 245,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late fall",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-20",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-21",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-22",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-23",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-24",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-25",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Holiday ski weeks",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-26",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Holiday ski weeks",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-27",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-28",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-29",
+   "rate": 350,
+   "minNights": 2,
+   "level": "high",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2026-12-30",
+   "rate": 440,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "New Year's Eve",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2026-12-31",
+   "rate": 440,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Holiday ski weeks",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "New Year's Eve",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-01-01",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Holiday ski weeks",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-02",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Holiday ski weeks",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-03",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-04",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-05",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-06",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-07",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-08",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-09",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-10",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-11",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-12",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-13",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-14",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-15",
+   "rate": 330,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "MLK Day ski weekend",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-01-16",
+   "rate": 330,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "MLK Day ski weekend",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-01-17",
+   "rate": 290,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "MLK Day ski weekend",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-01-18",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-19",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-20",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-21",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-22",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-23",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-24",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-25",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-26",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-27",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-28",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-29",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-30",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-01-31",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-01",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-02",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-03",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-04",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-05",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-06",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-07",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-08",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-09",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-10",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-11",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-12",
+   "rate": 375,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Presidents' Day / mid-winter break",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-02-13",
+   "rate": 375,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Presidents' Day / mid-winter break",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-02-14",
+   "rate": 330,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Presidents' Day / mid-winter break",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-02-15",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-16",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-17",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-18",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-19",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-20",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-21",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-22",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-23",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-24",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-25",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-26",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-27",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-02-28",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-01",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-02",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-03",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-04",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-05",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-06",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-07",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-08",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-09",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-10",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-11",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-12",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-13",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Ski season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-14",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-15",
+   "rate": 265,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Ski season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-16",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-17",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-18",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-19",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-20",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-21",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-22",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-23",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-24",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-25",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-03-26",
+   "rate": 255,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-03-27",
+   "rate": 255,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-03-28",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-03-29",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-03-30",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-03-31",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-04-01",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-04-02",
+   "rate": 255,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-04-03",
+   "rate": 255,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-04-04",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Michigan spring break (most districts)",
+     "town": "Holiday",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-04-05",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-06",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-07",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-08",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-09",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-10",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-11",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-12",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-13",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-14",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-15",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-16",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-17",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-18",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-19",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-20",
+   "rate": 250,
+   "minNights": 2,
+   "level": "high",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Trout Festival",
+     "town": "Kalkaska",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://nationaltroutfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-21",
+   "rate": 250,
+   "minNights": 2,
+   "level": "high",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Trout Festival",
+     "town": "Kalkaska",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://nationaltroutfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-22",
+   "rate": 250,
+   "minNights": 2,
+   "level": "high",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Trout Festival",
+     "town": "Kalkaska",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://nationaltroutfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-23",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Trout Festival",
+     "town": "Kalkaska",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://nationaltroutfestival.com/"
+    },
+    {
+     "name": "Trout opener",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-04-24",
+   "rate": 300,
+   "minNights": 2,
+   "level": "high",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Trout Festival",
+     "town": "Kalkaska",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://nationaltroutfestival.com/"
+    },
+    {
+     "name": "Trout opener",
+     "town": "Statewide",
+     "impact": 1,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-04-25",
+   "rate": 250,
+   "minNights": 2,
+   "level": "high",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Trout Festival",
+     "town": "Kalkaska",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://nationaltroutfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-26",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-27",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-28",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-29",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-04-30",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-01",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-02",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-03",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-04",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-05",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-06",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-07",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-08",
+   "rate": 230,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-09",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-10",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-11",
+   "rate": 200,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-12",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "National Morel Mushroom Festival",
+     "town": "Boyne City",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://bcmorelfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-13",
+   "rate": 220,
+   "minNights": 2,
+   "level": "low",
+   "season": "Spring mud season",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "National Morel Mushroom Festival",
+     "town": "Boyne City",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://bcmorelfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-14",
+   "rate": 255,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Spring mud season",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "National Morel Mushroom Festival",
+     "town": "Boyne City",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://bcmorelfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-15",
+   "rate": 315,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "National Morel Mushroom Festival",
+     "town": "Boyne City",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://bcmorelfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-16",
+   "rate": 275,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "National Morel Mushroom Festival",
+     "town": "Boyne City",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://bcmorelfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-17",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-18",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-19",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-20",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-21",
+   "rate": 290,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-22",
+   "rate": 290,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-23",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-24",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-25",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-26",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-27",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-05-28",
+   "rate": 360,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Memorial Day weekend",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-05-29",
+   "rate": 360,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Memorial Day weekend",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-05-30",
+   "rate": 315,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Memorial Day weekend",
+     "town": "Holiday",
+     "impact": 2,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-05-31",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-01",
+   "rate": 315,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Mancelona Bass Festival",
+     "town": "Mancelona",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://mancelonachamber.org/calendar/community/mancelona-bass-festival-69th-annual"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-02",
+   "rate": 315,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Mancelona Bass Festival",
+     "town": "Mancelona",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://mancelonachamber.org/calendar/community/mancelona-bass-festival-69th-annual"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-03",
+   "rate": 315,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Mancelona Bass Festival",
+     "town": "Mancelona",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://mancelonachamber.org/calendar/community/mancelona-bass-festival-69th-annual"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-04",
+   "rate": 360,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Mancelona Bass Festival",
+     "town": "Mancelona",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://mancelonachamber.org/calendar/community/mancelona-bass-festival-69th-annual"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-05",
+   "rate": 360,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Mancelona Bass Festival",
+     "town": "Mancelona",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://mancelonachamber.org/calendar/community/mancelona-bass-festival-69th-annual"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-06",
+   "rate": 315,
+   "minNights": 2,
+   "level": "high",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "Mancelona Bass Festival",
+     "town": "Mancelona",
+     "impact": 2,
+     "confirmed": false,
+     "url": "https://mancelonachamber.org/calendar/community/mancelona-bass-festival-69th-annual"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-07",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-08",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-09",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-10",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-11",
+   "rate": 290,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-12",
+   "rate": 290,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-13",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-14",
+   "rate": 250,
+   "minNights": 2,
+   "level": "normal",
+   "season": "Late spring",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-15",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-16",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-17",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-18",
+   "rate": 415,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-19",
+   "rate": 415,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-20",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-21",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-22",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-23",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-24",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-25",
+   "rate": 415,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-26",
+   "rate": 415,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-27",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-28",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-29",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-06-30",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-01",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-02",
+   "rate": 625,
+   "minNights": 3,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 3,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    },
+    {
+     "name": "Fourth of July / Torch Lake sandbar",
+     "town": "Torch Lake",
+     "impact": 3,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-07-03",
+   "rate": 625,
+   "minNights": 3,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 3,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    },
+    {
+     "name": "Fourth of July / Torch Lake sandbar",
+     "town": "Torch Lake",
+     "impact": 3,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-07-04",
+   "rate": 545,
+   "minNights": 3,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 3,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    },
+    {
+     "name": "Fourth of July / Torch Lake sandbar",
+     "town": "Torch Lake",
+     "impact": 3,
+     "confirmed": true
+    }
+   ]
+  },
+  {
+   "date": "2027-07-05",
+   "rate": 455,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-06",
+   "rate": 455,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-07",
+   "rate": 455,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-08",
+   "rate": 455,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-09",
+   "rate": 520,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-10",
+   "rate": 520,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 2,
+   "events": [
+    {
+     "name": "National Cherry Festival",
+     "town": "Traverse City",
+     "impact": 2,
+     "confirmed": true,
+     "url": "https://www.cherryfestival.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-11",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-12",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Gaylord Alpenfest",
+     "town": "Gaylord",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.gaylordalpenfest.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-13",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Gaylord Alpenfest",
+     "town": "Gaylord",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.gaylordalpenfest.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-14",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Gaylord Alpenfest",
+     "town": "Gaylord",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.gaylordalpenfest.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-15",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Gaylord Alpenfest",
+     "town": "Gaylord",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.gaylordalpenfest.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-16",
+   "rate": 480,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Gaylord Alpenfest",
+     "town": "Gaylord",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.gaylordalpenfest.com/"
+    },
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-17",
+   "rate": 480,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Gaylord Alpenfest",
+     "town": "Gaylord",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.gaylordalpenfest.com/"
+    },
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-18",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-19",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-20",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-21",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-22",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-23",
+   "rate": 460,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-24",
+   "rate": 460,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Charlevoix Venetian Festival",
+     "town": "Charlevoix",
+     "impact": 1,
+     "confirmed": false,
+     "url": "https://venetianfestival.com/"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-25",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-26",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-27",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-28",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-29",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-30",
+   "rate": 415,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-07-31",
+   "rate": 415,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-08-01",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-08-02",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-08-03",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Elk Rapids Harbor Days",
+     "town": "Elk Rapids",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.elkrapidschamber.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-04",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Elk Rapids Harbor Days",
+     "town": "Elk Rapids",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.elkrapidschamber.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-05",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Elk Rapids Harbor Days",
+     "town": "Elk Rapids",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.elkrapidschamber.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-06",
+   "rate": 460,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Elk Rapids Harbor Days",
+     "town": "Elk Rapids",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.elkrapidschamber.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-07",
+   "rate": 460,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Elk Rapids Harbor Days",
+     "town": "Elk Rapids",
+     "impact": 1,
+     "confirmed": true,
+     "url": "https://www.elkrapidschamber.org/"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-08",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-08-09",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-08-10",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  },
+  {
+   "date": "2027-08-11",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Antrim County Fair",
+     "town": "Bellaire",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-08-12",
+   "rate": 400,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Antrim County Fair",
+     "town": "Bellaire",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-08-13",
+   "rate": 460,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Antrim County Fair",
+     "town": "Bellaire",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-08-14",
+   "rate": 460,
+   "minNights": 2,
+   "level": "peak",
+   "season": "Summer peak",
+   "weekend": true,
+   "impact": 1,
+   "events": [
+    {
+     "name": "Antrim County Fair",
+     "town": "Bellaire",
+     "impact": 1,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "date": "2027-08-15",
+   "rate": 365,
+   "minNights": 2,
+   "level": "high",
+   "season": "Summer peak",
+   "weekend": false,
+   "impact": 0,
+   "events": []
+  }
+ ],
+ "upcoming": [
+  {
+   "name": "Firearm deer opener",
+   "town": "Statewide",
+   "impact": 3,
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 1
+  },
+  {
+   "name": "Firearm deer season",
+   "town": "Statewide",
+   "impact": 1,
+   "start": "2026-11-15",
+   "end": "2026-11-30",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 1
+  },
+  {
+   "name": "Thanksgiving weekend",
+   "town": "Holiday",
+   "impact": 2,
+   "start": "2026-11-26",
+   "end": "2026-11-28",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 12
+  },
+  {
+   "name": "New Year's Eve",
+   "town": "Holiday",
+   "impact": 2,
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 47
+  },
+  {
+   "name": "MLK Day ski weekend",
+   "town": "Holiday",
+   "impact": 1,
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 63
+  },
+  {
+   "name": "Presidents' Day / mid-winter break",
+   "town": "Holiday",
+   "impact": 2,
+   "start": "2027-02-13",
+   "end": "2027-02-14",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 91
+  },
+  {
+   "name": "Michigan spring break (most districts)",
+   "town": "Holiday",
+   "impact": 1,
+   "start": "2027-03-27",
+   "end": "2027-04-04",
+   "confirmed": false,
+   "fromFeed": false,
+   "daysAway": 133
+  },
+  {
+   "name": "National Trout Festival",
+   "town": "Kalkaska",
+   "impact": 2,
+   "start": "2027-04-21",
+   "end": "2027-04-25",
+   "confirmed": false,
+   "fromFeed": false,
+   "url": "https://nationaltroutfestival.com/",
+   "daysAway": 158
+  },
+  {
+   "name": "Trout opener",
+   "town": "Statewide",
+   "impact": 1,
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 161
+  },
+  {
+   "name": "National Morel Mushroom Festival",
+   "town": "Boyne City",
+   "impact": 1,
+   "start": "2027-05-13",
+   "end": "2027-05-16",
+   "confirmed": false,
+   "fromFeed": false,
+   "url": "https://bcmorelfestival.com/",
+   "daysAway": 180
+  },
+  {
+   "name": "Memorial Day weekend",
+   "town": "Holiday",
+   "impact": 2,
+   "start": "2027-05-29",
+   "end": "2027-05-30",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 196
+  },
+  {
+   "name": "Mancelona Bass Festival",
+   "town": "Mancelona",
+   "impact": 2,
+   "start": "2027-06-02",
+   "end": "2027-06-06",
+   "confirmed": false,
+   "fromFeed": false,
+   "url": "https://mancelonachamber.org/calendar/community/mancelona-bass-festival-69th-annual",
+   "daysAway": 200
+  },
+  {
+   "name": "National Cherry Festival",
+   "town": "Traverse City",
+   "impact": 2,
+   "start": "2027-07-03",
+   "end": "2027-07-10",
+   "confirmed": true,
+   "fromFeed": false,
+   "url": "https://www.cherryfestival.org/",
+   "daysAway": 231
+  },
+  {
+   "name": "Fourth of July / Torch Lake sandbar",
+   "town": "Torch Lake",
+   "impact": 3,
+   "start": "2027-07-03",
+   "end": "2027-07-04",
+   "confirmed": true,
+   "fromFeed": false,
+   "daysAway": 231
+  },
+  {
+   "name": "Gaylord Alpenfest",
+   "town": "Gaylord",
+   "impact": 1,
+   "start": "2027-07-13",
+   "end": "2027-07-17",
+   "confirmed": true,
+   "fromFeed": false,
+   "url": "https://www.gaylordalpenfest.com/",
+   "daysAway": 241
+  },
+  {
+   "name": "Charlevoix Venetian Festival",
+   "town": "Charlevoix",
+   "impact": 1,
+   "start": "2027-07-17",
+   "end": "2027-07-24",
+   "confirmed": false,
+   "fromFeed": false,
+   "url": "https://venetianfestival.com/",
+   "daysAway": 245
+  },
+  {
+   "name": "Elk Rapids Harbor Days",
+   "town": "Elk Rapids",
+   "impact": 1,
+   "start": "2027-08-04",
+   "end": "2027-08-07",
+   "confirmed": true,
+   "fromFeed": false,
+   "url": "https://www.elkrapidschamber.org/",
+   "daysAway": 263
+  },
+  {
+   "name": "Antrim County Fair",
+   "town": "Bellaire",
+   "impact": 1,
+   "start": "2027-08-12",
+   "end": "2027-08-14",
+   "confirmed": false,
+   "fromFeed": false,
+   "daysAway": 271
+  }
+ ]
+}
