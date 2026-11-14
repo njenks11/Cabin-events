@@ -49,6 +49,23 @@
   #detail:empty { display: none; }
   #detail ul { margin: 6px 0 0; padding-left: 18px; }
   .note { font-size: .82rem; color: var(--muted); margin-top: 24px; }
+  .howto { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; padding: 12px 16px; margin: 12px 0 4px; }
+  .howto summary { font-weight: 650; cursor: pointer; }
+  .howto ol { margin: 8px 0 2px; padding-left: 20px; }
+  .howto li { margin: 4px 0; }
+  @media print {
+    @page { size: letter landscape; margin: 0.4in; }
+    body { background: #fff; font-size: 11px; }
+    main { max-width: none; padding: 0; }
+    .toolbar, #detail, .tip, .howto, .note, .print-hide { display: none !important; }
+    .months { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .month, .spike { break-inside: avoid; }
+    .spikes { grid-template-columns: 1fr 1fr; gap: 4px; }
+    .spike { padding: 4px 8px; }
+    .day { min-height: 30px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    h2 { margin: 10px 0 6px; break-after: avoid; }
+    .page-break { break-before: page; }
+  }
   @media (max-width: 420px) { .day { min-height: 38px; padding: 2px; font-size: .62rem; } .day b { font-size: .68rem; } }
 </style>
 </head>
@@ -57,7 +74,8 @@
   <h1 id="title">Rate planner</h1>
   <p class="sub" id="meta">Loading…</p>
   <div class="toolbar">
-    <button class="primary" id="csv">Download CSV</button>
+    <button class="primary" onclick="window.print()">Print rate sheet</button>
+    <button id="csv">Download CSV</button>
     <div class="legend">
       <span style="--sw:var(--low)">Below base</span>
       <span style="--sw:var(--normal)">Normal</span>
@@ -67,10 +85,24 @@
     </div>
   </div>
 
+  <details class="howto" open>
+    <summary>How to use this (10 minutes, once a month)</summary>
+    <ol>
+      <li><strong>Start with the "Coming up" list.</strong> Anything marked "Set these rates now" is a big weekend months away.
+        Price it first, before early guests book it at your normal rate.</li>
+      <li><strong>Copy the rates into Airbnb / VRBO.</strong> In the Airbnb app: <em>Calendar</em> → tap the dates →
+        <em>Nightly price</em>, and set the minimum stay under <em>Availability</em> or <em>Trip length</em>. VRBO works the same way under
+        <em>Calendar → Rates</em>. Do the red and yellow nights; the white ones can stay at your normal price.</li>
+      <li><strong>Print it</strong> with the button above if paper is easier. The sheet fits on two or three landscape pages.</li>
+      <li><strong>Check in once a month.</strong> The page updates itself every morning, adding new local events and dropping past ones.
+        If a big weekend is still empty 2–3 weeks out, drop that price 10–15%.</li>
+    </ol>
+  </details>
+
   <h2>Coming up: demand spikes</h2>
   <div class="spikes" id="spikes"></div>
 
-  <h2>Suggested nightly rates</h2>
+  <h2 class="page-break">Suggested nightly rates</h2>
   <div class="months" id="months"></div>
   <div id="detail" aria-live="polite"></div>
 

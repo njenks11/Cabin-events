@@ -3,7 +3,7 @@
   "zip": "49659",
   "latitude": 44.9022,
   "longitude": -85.0609,
-  "radiusMiles": 40,
+  "radiusMiles": 35,
   "daysAhead": 120,
   "timezone": "America/Detroit",
   "maxEvents": 500,
