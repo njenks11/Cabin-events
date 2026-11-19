@@ -1,11 +1,11 @@
 name: Update events and rates
 
+# Automatic daily runs are OFF. To turn them back on (after enabling Settings -> Pages ->
+# Source: GitHub Actions), uncomment the two schedule lines below.
 on:
-  schedule:
-    - cron: "17 9 * * *" # every morning, ~5am Michigan time
+  # schedule:
+  #   - cron: "17 9 * * *" # every morning, ~5am Michigan time
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: read
